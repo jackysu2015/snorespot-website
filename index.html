@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="SnoreSpot 帮你记录并回听夜晚的声音，在支持的 iPhone 上进行本机分析，慢慢发现属于自己的夜间规律。"
+    />
+    <meta name="theme-color" content="#faf7ff" />
+    <meta property="og:title" content="SnoreSpot · 听见昨夜，慢慢了解自己" />
+    <meta
+      property="og:description"
+      content="记录夜晚声音、回听疑似片段、观察自己的变化。录音留在本机，分享由你决定。"
+    />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="preload" href="assets/fonts/NotoSansSC-Regular.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+    <title>SnoreSpot · 听见昨夜，慢慢了解自己</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+
+    <header class="site-header" data-header>
+      <div class="nav-shell">
+        <a class="brand" href="#top" aria-label="SnoreSpot 首页">
+          <img src="assets/images/app_icon.webp" alt="" width="42" height="42" />
+          <span>SnoreSpot</span>
+        </a>
+
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-button>
+          <span class="sr-only">打开导航</span>
+          <span></span><span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="主要导航" data-menu>
+          <a href="#features">功能</a>
+          <a href="#privacy">隐私</a>
+          <a href="#faq">常见问题</a>
+        </nav>
+
+        <button class="button button-small header-cta" type="button" data-launch-trigger>
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.79 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.53 4.09ZM12.03 7.25C11.88 5.02 13.69 3.18 15.77 3c.29 2.58-2.34 4.5-3.74 4.25Z"/></svg>
+          即将上线 App Store
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-glow hero-glow-one"></div>
+        <div class="hero-glow hero-glow-two"></div>
+        <div class="shell hero-grid">
+          <div class="hero-copy reveal">
+            <div class="eyebrow"><span></span> iPhone 首发准备中</div>
+            <h1>听见昨夜，<br /><em>慢慢了解自己。</em></h1>
+            <p class="hero-lede">
+              从真实录音开始，回听值得留意的声音片段，记录生活中的小变化，找到只属于你的夜间规律。
+            </p>
+            <div class="hero-actions">
+              <button class="button button-primary" type="button" data-launch-trigger>
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.79 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.53 4.09ZM12.03 7.25C11.88 5.02 13.69 3.18 15.77 3c.29 2.58-2.34 4.5-3.74 4.25Z"/></svg>
+                即将上线 App Store
+              </button>
+              <a class="button button-ghost" href="#how-it-works">
+                <span class="play-icon" aria-hidden="true">▶</span>
+                了解工作方式
+              </a>
+            </div>
+
+            <ul class="trust-list" aria-label="产品特点">
+              <li><span class="trust-icon" aria-hidden="true">⌁</span> 本机分析</li>
+              <li><span class="trust-icon" aria-hidden="true">⌑</span> 无需账户</li>
+              <li><span class="trust-icon" aria-hidden="true">◇</span> 分享由你决定</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal" aria-label="SnoreSpot 应用界面预览">
+            <span class="star star-one" aria-hidden="true">✦</span>
+            <span class="star star-two" aria-hidden="true">✦</span>
+            <span class="star star-three" aria-hidden="true">✦</span>
+            <div class="hero-moon" aria-hidden="true"></div>
+            <img class="hero-bear" src="assets/images/mascot_pillow.webp" alt="抱着紫色枕头的 SnoreSpot 小熊" />
+
+            <div class="phone phone-hero">
+              <div class="phone-speaker" aria-hidden="true"></div>
+              <div class="phone-screen">
+                <img src="assets/images/app_report.png" alt="SnoreSpot 夜晚声音报告界面" />
+              </div>
+            </div>
+
+            <div class="sound-card floating-card" aria-hidden="true">
+              <div class="sound-card-icon">◉</div>
+              <div><strong>疑似鼾声</strong><span>点一下，回听确认</span></div>
+              <div class="tiny-wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+            <p class="hand-note note-one">每一个夜晚，<br />都有自己的声音。</p>
+          </div>
+        </div>
+
+        <div class="wave-divider" aria-hidden="true">
+          <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,52 C250,126 400,7 680,56 C930,100 1100,125 1440,36 L1440,120 L0,120 Z"/></svg>
+        </div>
+      </section>
+
+      <section class="how-section section" id="how-it-works">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <span class="section-kicker">HOW IT WORKS</span>
+            <h2>简单三步，更了解你的夜晚</h2>
+            <p>不只看结果，也能听见细节。所有分析都在支持的 iPhone 上完成。</p>
+          </div>
+
+          <div class="feature-grid" id="features">
+            <article class="feature-card reveal">
+              <span class="card-number">01</span>
+              <h3>不只看结果，<br />也听听原声</h3>
+              <p>从疑似片段跳回完整录音，听清前后发生了什么；定位播放和倍速回听都由你掌控。</p>
+              <div class="feature-demo waveform-demo" aria-hidden="true">
+                <div class="demo-label"><span class="round-control">Ⅱ</span><strong>夜晚的声音</strong><b>00:12 / 00:30</b></div>
+                <div class="wave-bars">
+                  <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                </div>
+                <div class="result-row"><span>⌁</span><div><small>疑似鼾声</small><strong>1 小时 36 分</strong></div><b>›</b></div>
+              </div>
+              <p class="hand-note">熟悉的声音，<br />让数据更有温度。</p>
+            </article>
+
+            <article class="feature-card feature-card-lift reveal">
+              <span class="card-number">02</span>
+              <h3>找出片段，<br />由你确认</h3>
+              <p>本机分析标记疑似鼾声、说话和咳嗽。再用自己的耳朵确认或纠正，保留判断权。</p>
+              <div class="feature-demo event-demo">
+                <img src="assets/images/app_events.png" alt="应用中的声音事件回听界面" loading="lazy" />
+              </div>
+              <p class="hand-note">这些片段，<br />都需要你亲自听一听。</p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="card-number">03</span>
+              <h3>观察变化，<br />不追逐完美分数</h3>
+              <p>用可比的夜晚观察趋势，记录睡姿、鼻塞、枕头等因素。看见差异，但不把相关当作因果。</p>
+              <div class="feature-demo chart-demo" aria-hidden="true">
+                <div class="chart-head"><span>近 7 晚的疑似鼾声时长</span><b>趋势</b></div>
+                <div class="chart-bars"><i style="--h:42%"></i><i style="--h:65%"></i><i style="--h:58%"></i><i style="--h:47%"></i><i style="--h:82%"></i><i class="active" style="--h:70%"></i><i style="--h:50%"></i></div>
+                <div class="chart-days"><span>周一</span><span>周二</span><span>周三</span><span>周四</span><span>周五</span><span>周六</span><span>周日</span></div>
+              </div>
+              <p class="hand-note">关注趋势，<br />而不是追逐完美。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="journey-section section" aria-labelledby="journey-title">
+        <div class="shell journey-grid">
+          <div class="journey-copy reveal">
+            <span class="section-kicker">FROM SOUND TO PATTERN</span>
+            <h2 id="journey-title">从一段声音，<br />到自己的夜间日记</h2>
+            <p>每一晚都从你主动开始。醒来后回听、确认，再把那天的生活因素记下来。积累足够记录后，属于你的变化才慢慢浮现。</p>
+            <ul class="check-list">
+              <li><span>✓</span> 原音、片段和前后语境都能回听</li>
+              <li><span>✓</span> 睡姿与生活因素由你主动记录</li>
+              <li><span>✓</span> 只比较条件一致、分析完整的夜晚</li>
+            </ul>
+            <a class="text-link" href="#privacy">看看我们如何保护你的声音 <span>→</span></a>
+          </div>
+
+          <div class="screen-gallery reveal" aria-label="SnoreSpot 功能界面">
+            <div class="screen-card screen-back"><img src="assets/images/app_share.png" alt="分享前预览界面" loading="lazy" /></div>
+            <div class="screen-card screen-middle"><img src="assets/images/app_trends.png" alt="个人趋势界面" loading="lazy" /></div>
+            <div class="screen-card screen-front"><img src="assets/images/app_events.png" alt="声音事件界面" loading="lazy" /></div>
+            <img class="gallery-bear" src="assets/images/mascot_headphones.webp" alt="戴着耳机回听的小熊" loading="lazy" />
+          </div>
+        </div>
+      </section>
+
+      <section class="privacy-section section" id="privacy">
+        <div class="privacy-stars" aria-hidden="true">✦　·　✦　　·　✦</div>
+        <div class="shell privacy-grid">
+          <div class="privacy-copy reveal">
+            <span class="section-kicker section-kicker-light">YOUR PRIVACY</span>
+            <h2>你的夜晚，<br />留在你的设备里</h2>
+            <p>录音、分析结果和夜晚日记保存在你的设备上。SnoreSpot 不会自动上传音频，你可以随时导出、分享或删除。</p>
+            <div class="privacy-points">
+              <div><span aria-hidden="true">⌁</span><strong>本机分析</strong><small>数据只保存在你的 iPhone</small></div>
+              <div><span aria-hidden="true">⌑</span><strong>无需账户</strong><small>不收集个人登录信息</small></div>
+              <div><span aria-hidden="true">◇</span><strong>分享由你决定</strong><small>敏感字段默认不包含</small></div>
+            </div>
+          </div>
+          <div class="privacy-art reveal">
+            <div class="shield" aria-hidden="true">
+              <svg viewBox="0 0 120 138"><path d="M60 4 108 22v40c0 33-19 58-48 72C31 120 12 95 12 62V22L60 4Z"/><rect x="39" y="60" width="42" height="35" rx="10"/><path d="M48 60v-9c0-8 5-14 12-14s12 6 12 14v9"/></svg>
+            </div>
+            <img src="assets/images/mascot_journal.webp" alt="抱着夜间日记的小熊" loading="lazy" />
+            <p class="hand-note">你的声音，<br />只属于你。</p>
+          </div>
+        </div>
+        <div class="wave-divider wave-divider-light" aria-hidden="true">
+          <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,66 C300,10 420,105 710,65 C960,28 1180,18 1440,72 L1440,120 L0,120 Z"/></svg>
+        </div>
+      </section>
+
+      <section class="cta-section section" id="download">
+        <div class="shell cta-shell reveal">
+          <span class="cta-star cta-star-one" aria-hidden="true">✦</span>
+          <span class="cta-star cta-star-two" aria-hidden="true">✦</span>
+          <img src="assets/images/mascot_pillow.webp" alt="抱枕休息的小熊" loading="lazy" />
+          <div class="cta-copy">
+            <span class="section-kicker">A GENTLER WAY TO LISTEN</span>
+            <h2>先体验 3 个成功分析的夜晚</h2>
+            <p>首发计划提供 3 晚免费体验，之后一次买断，无订阅、无自动续费。</p>
+            <button class="button button-primary" type="button" data-launch-trigger>
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.79 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.53 4.09ZM12.03 7.25C11.88 5.02 13.69 3.18 15.77 3c.29 2.58-2.34 4.5-3.74 4.25Z"/></svg>
+              即将上线 App Store
+            </button>
+            <small>最终功能与价格以正式上架页面为准。</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-section section" id="faq">
+        <div class="shell faq-grid">
+          <div class="faq-heading reveal">
+            <span class="section-kicker">GOOD TO KNOW</span>
+            <h2>常见问题</h2>
+            <p>开始记录之前，先了解 SnoreSpot 的能力与边界。</p>
+          </div>
+          <div class="faq-list reveal">
+            <details>
+              <summary>SnoreSpot 会自动整夜监听吗？<span>＋</span></summary>
+              <p>不会。只有你主动开始记录后，SnoreSpot 才会使用麦克风；结束时间也由你决定。</p>
+            </details>
+            <details>
+              <summary>录音会上传到云端吗？<span>＋</span></summary>
+              <p>不会自动上传。录音、分析和日记保存在本机。只有你主动使用系统分享时，内容才会交给你选择的接收应用。</p>
+            </details>
+            <details>
+              <summary>它能诊断睡眠呼吸暂停吗？<span>＋</span></summary>
+              <p>不能。SnoreSpot 用于记录和个人观察，不是医疗器械，不测量睡眠时长，也不替代专业医疗意见。</p>
+            </details>
+            <details>
+              <summary>疑似鼾声一定准确吗？<span>＋</span></summary>
+              <p>不一定。设备端分析可能出错，因此每个片段都支持回听、确认和纠正；未检测到片段也不代表没有鼾声。</p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <a class="brand footer-brand" href="#top">
+          <img src="assets/images/app_icon.webp" alt="" width="40" height="40" />
+          <span><strong>SnoreSpot</strong><small>听见昨夜，慢慢了解自己。</small></span>
+        </a>
+        <nav aria-label="页脚导航">
+          <a href="#features">功能</a><a href="#privacy">隐私</a><a href="#faq">常见问题</a>
+        </nav>
+        <p>© <span data-year></span> SnoreSpot · 保留所有权利<br /><small>让每一个夜晚，都被温柔记录。</small></p>
+      </div>
+    </footer>
+
+    <dialog class="launch-dialog" data-launch-dialog aria-labelledby="launch-title">
+      <button class="dialog-close" type="button" aria-label="关闭" data-dialog-close>×</button>
+      <img src="assets/images/app_icon.webp" alt="" width="68" height="68" />
+      <span class="section-kicker">COMING SOON</span>
+      <h2 id="launch-title">SnoreSpot 正在准备中</h2>
+      <p>我们正在完成真机整夜验证和 App Store 上架准备。正式上线前，不会把尚未验证的能力说成承诺。</p>
+      <button class="button button-primary" type="button" data-dialog-close>知道了</button>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
