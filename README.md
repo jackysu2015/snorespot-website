@@ -25,7 +25,7 @@ python3 -m http.server 4173 --bind 127.0.0.1 --directory website
 
 - App Store CTA 当前只显示“正在准备中”，没有虚构下载地址。
 - 正式上线后，将 CTA 替换为真实 App Store 链接。
-- 隐私／支持页已在本地准备，联系邮箱为 `info@snorespot.app`；公开部署与网址可访问性仍待核验，商店元数据中的 URL 不应提前填入。
+- 隐私／支持页已发布至 `https://snorespot.app/privacy.html` 和 `https://snorespot.app/support.html`；联系邮箱为 `info@snorespot.app`。商店元数据仍需等隐私内容及邮箱收信能力完成最终核验后再提交。
 - 宣传内容保持现有产品边界，不包含医疗诊断、无提示自动监听、已验收整夜可靠性或疗效承诺。
 
 ## 知识产权
