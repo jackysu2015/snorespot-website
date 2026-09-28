@@ -15,6 +15,8 @@ python3 -m http.server 4173 --bind 127.0.0.1 --directory website
 ## 结构
 
 - `index.html`：页面内容与语义结构。
+- `privacy.html`、`support.html`：英语与简体中文隐私说明、帮助与联系方式。
+- `legal.css`：隐私／支持页面的响应式样式。
 - `styles.css`：品牌视觉、响应式布局与动效。
 - `script.js`：移动导航、上线提示、FAQ 与进入动效。
 - `assets/`：网页字体、已确认小熊素材和真实应用截图。
@@ -23,7 +25,8 @@ python3 -m http.server 4173 --bind 127.0.0.1 --directory website
 
 - App Store CTA 当前只显示“正在准备中”，没有虚构下载地址。
 - 正式上线后，将 CTA 替换为真实 App Store 链接。
-- 宣传内容保持现有产品边界，不包含医疗诊断、自动整夜监听或疗效承诺。
+- 隐私／支持页已在本地准备，联系邮箱为 `info@snorespot.app`；公开部署与网址可访问性仍待核验，商店元数据中的 URL 不应提前填入。
+- 宣传内容保持现有产品边界，不包含医疗诊断、无提示自动监听、已验收整夜可靠性或疗效承诺。
 
 ## 知识产权
 
