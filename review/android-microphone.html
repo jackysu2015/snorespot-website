@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
+  <title>Android recording demonstration | SnoreSpot</title>
+  <link rel="icon" type="image/png" href="../favicon.png" />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="../legal.css" />
+</head>
+<body class="legal-page">
+  <header class="legal-header"><div class="shell"><a class="brand" href="../index.html">SnoreSpot</a><nav aria-label="Page navigation"><a href="../privacy.html">Privacy</a><a href="../support.html">Support</a></nav></div></header>
+  <main class="legal-main" id="main">
+    <p class="legal-eyebrow">Review demonstration</p>
+    <h1>Android recording</h1>
+    <p class="legal-intro">A demonstration of the user-started microphone foreground service: open SnoreSpot, start recording, switch to Home, view the ongoing recording notification, return, finish and open the report.</p>
+    <video controls playsinline preload="metadata" aria-label="SnoreSpot Android microphone foreground service demonstration" style="display:block;width:100%;max-width:420px;height:auto;margin:2rem auto;background:#151322;border-radius:16px">
+      <source src="../assets/review/android-microphone-demo.mp4" type="video/mp4" />
+      <a href="../assets/review/android-microphone-demo.mp4">Open the recording demonstration video</a>.
+    </video>
+    <section class="legal-section">
+      <h2>Demonstration setup</h2>
+      <p>Recorded on October 15, 2026 using an isolated Android 16 / API 36 test emulator, actual SnoreSpot Flutter screens, and native microphone capture and on-device classification. Microphone and notification permissions were already granted. There is no account login, owner recording or purchase information in this footage.</p>
+      <p>The QA build uses 30-second segments to demonstrate incremental analysis in a short video. The production candidate uses 120-second segments. This is a functional demonstration, not footage of a Google Play purchase or a physical-device acceptance test.</p>
+      <p>The microphone service is started only after the user opens the app and starts recording. A reminder asks the user to open the app; it does not start hidden recording at boot or at an unattended scheduled time.</p>
+      <p>SnoreSpot is a recording and personal observation tool, not a medical device. It cannot diagnose, treat, cure or prevent illness. Ask a qualified healthcare professional about medical symptoms, diagnosis or treatment.</p>
+    </section>
+  </main>
+</body>
+</html>
